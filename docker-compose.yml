@@ -1,9 +1,9 @@
 services:
   web:
-    # image: hello769778/my_tennis_club:latest
+    #image: hello769778/jenkins_projects:latest
     ports:
       - "8000:8000"
-    estart: always  
+    restart: always  
       
 
       
